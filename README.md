@@ -1,4 +1,4 @@
-Kablosuz Ekran Yansıtma: Scrcpy Kurulum ve Kullanım Kılavuzu
+# Kablosuz Ekran Yansıtma: Scrcpy Kurulum ve Kullanım Kılavuzu
 
 Bu kılavuz, Android telefonunuzu kablosuz olarak bilgisayarınıza yansıtmak için scrcpy aracını kurmayı ve kullanmayı adım adım açıklamaktadır. Kılavuz, herhangi bir USB bağlantısı olmadan, yalnızca yerel ağ üzerinden yansıtma yapmayı içerir.
 Gereksinimler
@@ -7,8 +7,8 @@ Gereksinimler
     Telefon ve bilgisayarın aynı Wi-Fi ağına bağlı olması
     USB hata ayıklama seçeneğinin aktif olduğu bir Android telefon
 
-Kurulum Adımları
-1. ADB ve Scrcpy Kurulumu
+## Kurulum Adımları
+### 1. ADB ve Scrcpy Kurulumu
 
 Linux
 
@@ -24,7 +24,7 @@ macOS
 
 	brew install android-platform-tools scrcpy
 
-2. Telefonunuzda USB Hata Ayıklama Özelliğini Etkinleştirme
+### 2. Telefonunuzda USB Hata Ayıklama Özelliğini Etkinleştirme
 
     Telefonunuzda Geliştirici Seçenekleri’ni açın:
         Ayarlar > Telefon Hakkında > Yapı Numarası'na 7 kez arka arkaya dokunun.
@@ -32,7 +32,7 @@ macOS
     USB hata ayıklamayı etkinleştirin:
         Ayarlar > Geliştirici Seçenekleri > USB hata ayıklama’yı etkinleştirin.
 
-3. Telefona USB ile Bağlanma ve Kablosuz Hata Ayıklamayı Etkinleştirme
+### 3. Telefona USB ile Bağlanma ve Kablosuz Hata Ayıklamayı Etkinleştirme
 
     Telefonunuzu USB ile bilgisayara bağlayın.
 
@@ -48,7 +48,7 @@ Cihazı kablosuz hata ayıklama için hazırlamak amacıyla şu komutu çalışt
 
     USB bağlantısını kesin.
 
-4. Kablosuz Bağlantı Sağlama
+### 4. Kablosuz Bağlantı Sağlama
 
     Telefonunuzun IP adresini öğrenin:
         Ayarlar > Wi-Fi > Bağlı olduğunuz ağın ayarları > IP Adresi.
@@ -62,7 +62,7 @@ Cihazı kablosuz hata ayıklama için hazırlamak amacıyla şu komutu çalışt
 
     Cihazın başarılı bir şekilde bağlanıp bağlanmadığını doğrulamak için adb devices komutunu tekrar çalıştırın. Çıktıda cihazınızın IP adresi ile birlikte görünüyor olmalıdır.
 
-5. Scrcpy’yi Başlatma
+### 5. Scrcpy’yi Başlatma
 
 Artık scrcpy’yi başlatıp ekranınızı yansıtabilirsiniz:
 
