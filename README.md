@@ -12,8 +12,8 @@ Kurulum Adımları
 
 Linux
 
-sudo apt update
-sudo apt install adb scrcpy
+	sudo apt update
+	sudo apt install adb scrcpy
 
 Windows
 
@@ -22,7 +22,7 @@ Windows
 
 macOS
 
-brew install android-platform-tools scrcpy
+	brew install android-platform-tools scrcpy
 
 2. Telefonunuzda USB Hata Ayıklama Özelliğini Etkinleştirme
 
